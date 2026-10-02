@@ -1,0 +1,13 @@
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+# Working films can contain private briefs, references, narration, and exports.
+# Publish curated examples separately after reviewing their contents.
+videos/
+videos/*/.cache/
+videos/*/frames/
+tmp/
+*.log

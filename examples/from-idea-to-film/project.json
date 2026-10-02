@@ -1,0 +1,954 @@
+{
+  "id": "from-idea-to-film",
+  "title": "From idea to film",
+  "createdAt": "2026-09-30T23:54:23.133Z",
+  "updatedAt": "2026-10-01T17:03:50.888Z",
+  "revision": 6,
+  "brief": {
+    "audience": "Creators making their first informational video",
+    "takeaway": "A clear process turns one idea into a finished film.",
+    "duration": 70,
+    "format": "landscape",
+    "style": "Tactile paper miniatures, warm ivory, charcoal, burnt orange",
+    "tone": "Warm, clear, conversational"
+  },
+  "voice": {
+    "provider": "demo",
+    "voiceId": "",
+    "model": "eleven_multilingual_v2"
+  },
+  "scenes": [
+    {
+      "id": "idea",
+      "title": "One idea.\nA whole film.",
+      "narration": "Every film starts with an idea. The challenge is turning that idea into a story people can see, hear, and remember.",
+      "duration": 6.4,
+      "layout": "image",
+      "items": [],
+      "visualPrompt": "A tactile miniature animation workshop made of ivory paper and orange wooden objects.",
+      "asset": "assets/workshop.png",
+      "audio": "audio/ac2d515be1dd8bc398dd63cda392d1d5f3327fdcb28949033ea28320acfbcbf5.mp3",
+      "words": [
+        {
+          "word": "Every",
+          "start": 0,
+          "end": 0.2
+        },
+        {
+          "word": "film",
+          "start": 0.2,
+          "end": 0.52
+        },
+        {
+          "word": "starts",
+          "start": 0.52,
+          "end": 0.8
+        },
+        {
+          "word": "with",
+          "start": 0.8,
+          "end": 1.04
+        },
+        {
+          "word": "an",
+          "start": 1.04,
+          "end": 1.18
+        },
+        {
+          "word": "idea.",
+          "start": 1.18,
+          "end": 1.52
+        },
+        {
+          "word": "The",
+          "start": 1.86,
+          "end": 2.02
+        },
+        {
+          "word": "challenge",
+          "start": 2.02,
+          "end": 2.4
+        },
+        {
+          "word": "is",
+          "start": 2.4,
+          "end": 2.64
+        },
+        {
+          "word": "turning",
+          "start": 2.64,
+          "end": 2.92
+        },
+        {
+          "word": "that",
+          "start": 2.92,
+          "end": 3.16
+        },
+        {
+          "word": "idea",
+          "start": 3.16,
+          "end": 3.48
+        },
+        {
+          "word": "into",
+          "start": 3.48,
+          "end": 3.76
+        },
+        {
+          "word": "a",
+          "start": 3.76,
+          "end": 3.88
+        },
+        {
+          "word": "story",
+          "start": 3.88,
+          "end": 4.14
+        },
+        {
+          "word": "people",
+          "start": 4.14,
+          "end": 4.48
+        },
+        {
+          "word": "can",
+          "start": 4.48,
+          "end": 4.68
+        },
+        {
+          "word": "see,",
+          "start": 4.68,
+          "end": 5.02
+        },
+        {
+          "word": "hear,",
+          "start": 5.22,
+          "end": 5.48
+        },
+        {
+          "word": "and",
+          "start": 5.68,
+          "end": 5.78
+        },
+        {
+          "word": "remember.",
+          "start": 5.78,
+          "end": 6.16
+        }
+      ],
+      "timingSource": "whisper",
+      "transcription": {
+        "text": "Every film starts with an idea. The challenge is turning that idea into a story people can see, here, and remember.",
+        "differsFromScript": true,
+        "differences": [
+          {
+            "type": "heardOnly",
+            "word": "here",
+            "transcriptIndex": 18
+          },
+          {
+            "type": "scriptOnly",
+            "word": "hear",
+            "scriptIndex": 18
+          }
+        ],
+        "reviewNote": "Corrected the homophone here \u2192 hear in caption words using the approved script; raw recognition and differences retained."
+      }
+    },
+    {
+      "id": "brief",
+      "title": "Start with the person watching.",
+      "narration": "Before making anything, decide who this is for. Choose one thing they should understand, and a visual style that makes that idea feel clear.",
+      "duration": 7.576,
+      "layout": "steps",
+      "items": [
+        "Who is watching?",
+        "What should they remember?",
+        "What should it feel like?"
+      ],
+      "visualPrompt": "An editorial three-step diagram with warm paper and charcoal typography.",
+      "asset": null,
+      "audio": "audio/39bf7911dbbf7e3ffbf1f7650ba1b7efa0258eddb2a4819bbf35eaff8f0dc40f.mp3",
+      "words": [
+        {
+          "word": "Before",
+          "start": 0,
+          "end": 0.24
+        },
+        {
+          "word": "making",
+          "start": 0.24,
+          "end": 0.54
+        },
+        {
+          "word": "anything,",
+          "start": 0.54,
+          "end": 1
+        },
+        {
+          "word": "decide",
+          "start": 1.34,
+          "end": 1.64
+        },
+        {
+          "word": "who",
+          "start": 1.64,
+          "end": 1.86
+        },
+        {
+          "word": "this",
+          "start": 1.86,
+          "end": 2
+        },
+        {
+          "word": "is",
+          "start": 2,
+          "end": 2.16
+        },
+        {
+          "word": "for.",
+          "start": 2.16,
+          "end": 2.42
+        },
+        {
+          "word": "Choose",
+          "start": 2.84,
+          "end": 3.04
+        },
+        {
+          "word": "one",
+          "start": 3.04,
+          "end": 3.36
+        },
+        {
+          "word": "thing",
+          "start": 3.36,
+          "end": 3.56
+        },
+        {
+          "word": "they",
+          "start": 3.56,
+          "end": 3.7
+        },
+        {
+          "word": "should",
+          "start": 3.7,
+          "end": 3.9
+        },
+        {
+          "word": "understand.",
+          "start": 3.9,
+          "end": 4.5
+        },
+        {
+          "word": "And",
+          "start": 4.84,
+          "end": 5.04
+        },
+        {
+          "word": "a",
+          "start": 5.04,
+          "end": 5.12
+        },
+        {
+          "word": "visual",
+          "start": 5.12,
+          "end": 5.42
+        },
+        {
+          "word": "style",
+          "start": 5.42,
+          "end": 5.86
+        },
+        {
+          "word": "that",
+          "start": 5.86,
+          "end": 6.06
+        },
+        {
+          "word": "makes",
+          "start": 6.06,
+          "end": 6.22
+        },
+        {
+          "word": "that",
+          "start": 6.22,
+          "end": 6.44
+        },
+        {
+          "word": "idea",
+          "start": 6.44,
+          "end": 6.74
+        },
+        {
+          "word": "feel",
+          "start": 6.74,
+          "end": 7
+        },
+        {
+          "word": "clear.",
+          "start": 7,
+          "end": 7.32
+        }
+      ],
+      "timingSource": "whisper",
+      "transcription": {
+        "text": "Before making anything, decide who this is for. Choose one thing they should understand. And a visual style that makes that idea feel clear.",
+        "differsFromScript": false,
+        "differences": []
+      },
+      "cuePhrases": [
+        "who this is for",
+        "one thing",
+        "visual style"
+      ],
+      "cues": [
+        {
+          "phrase": "who this is for",
+          "start": 1.64,
+          "end": 2.42,
+          "wordIndex": 4
+        },
+        {
+          "phrase": "one thing",
+          "start": 3.04,
+          "end": 3.56,
+          "wordIndex": 9
+        },
+        {
+          "phrase": "visual style",
+          "start": 5.12,
+          "end": 5.86,
+          "wordIndex": 16
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "Let the voice lead.",
+      "narration": "Write the story in natural spoken language. Record the narration in small sections. If a sentence feels wrong, replace that take without touching the rest.",
+      "duration": 8.464,
+      "layout": "image",
+      "items": [],
+      "visualPrompt": "A sculptural orange studio microphone on a warm ivory paper stage, charcoal sound-wave sculptures, soft tactile shadows.",
+      "asset": "assets/microphone.png",
+      "audio": "audio/f8f18f5e199a85b5d271b6662a507c01846b4be98f2090794fbf95db9b11d4ab.mp3",
+      "words": [
+        {
+          "word": "Write",
+          "start": 0,
+          "end": 0.16
+        },
+        {
+          "word": "the",
+          "start": 0.16,
+          "end": 0.32
+        },
+        {
+          "word": "story",
+          "start": 0.32,
+          "end": 0.66
+        },
+        {
+          "word": "in",
+          "start": 0.66,
+          "end": 0.82
+        },
+        {
+          "word": "natural",
+          "start": 0.82,
+          "end": 1.16
+        },
+        {
+          "word": "spoken",
+          "start": 1.16,
+          "end": 1.52
+        },
+        {
+          "word": "language,",
+          "start": 1.52,
+          "end": 1.96
+        },
+        {
+          "word": "record",
+          "start": 2.5,
+          "end": 2.72
+        },
+        {
+          "word": "the",
+          "start": 2.72,
+          "end": 2.88
+        },
+        {
+          "word": "narration",
+          "start": 2.88,
+          "end": 3.22
+        },
+        {
+          "word": "in",
+          "start": 3.22,
+          "end": 3.48
+        },
+        {
+          "word": "small",
+          "start": 3.48,
+          "end": 3.76
+        },
+        {
+          "word": "sections,",
+          "start": 3.76,
+          "end": 4.26
+        },
+        {
+          "word": "if",
+          "start": 4.58,
+          "end": 4.82
+        },
+        {
+          "word": "a",
+          "start": 4.82,
+          "end": 4.9
+        },
+        {
+          "word": "sentence",
+          "start": 4.9,
+          "end": 5.2
+        },
+        {
+          "word": "feels",
+          "start": 5.2,
+          "end": 5.5
+        },
+        {
+          "word": "wrong.",
+          "start": 5.5,
+          "end": 5.96
+        },
+        {
+          "word": "Replace",
+          "start": 6.34,
+          "end": 6.68
+        },
+        {
+          "word": "that",
+          "start": 6.68,
+          "end": 6.92
+        },
+        {
+          "word": "take",
+          "start": 6.92,
+          "end": 7.12
+        },
+        {
+          "word": "without",
+          "start": 7.12,
+          "end": 7.38
+        },
+        {
+          "word": "touching",
+          "start": 7.38,
+          "end": 7.78
+        },
+        {
+          "word": "the",
+          "start": 7.78,
+          "end": 7.94
+        },
+        {
+          "word": "rest.",
+          "start": 7.94,
+          "end": 8.12
+        }
+      ],
+      "timingSource": "whisper",
+      "transcription": {
+        "text": "Write the story in natural spoken language, record the narration in small sections, if a sentence feels wrong. Replace that take without touching the rest.",
+        "differsFromScript": false,
+        "differences": []
+      },
+      "cues": []
+    },
+    {
+      "id": "beats",
+      "title": "Give each idea a moment.",
+      "narration": "Now map the words to pictures. A storyboard says what appears and when. Review the stills before building the movement. Small changes are easier here.",
+      "duration": 8.568,
+      "layout": "steps",
+      "items": [
+        "Match words to visual beats.",
+        "Create and review the artwork.",
+        "Give the eye time to understand."
+      ],
+      "visualPrompt": "Storyboard panels and timing marks.",
+      "asset": null,
+      "audio": "audio/c32a19a0d550c4ba82bfa597c4ea96944cbca2cbe5cf0cd3ac512b5fa3b686a2.mp3",
+      "words": [
+        {
+          "word": "Now",
+          "start": 0,
+          "end": 0.2
+        },
+        {
+          "word": "map",
+          "start": 0.2,
+          "end": 0.46
+        },
+        {
+          "word": "the",
+          "start": 0.46,
+          "end": 0.62
+        },
+        {
+          "word": "words",
+          "start": 0.62,
+          "end": 0.82
+        },
+        {
+          "word": "to",
+          "start": 0.82,
+          "end": 1.06
+        },
+        {
+          "word": "pictures.",
+          "start": 1.06,
+          "end": 1.38
+        },
+        {
+          "word": "A",
+          "start": 1.88,
+          "end": 1.98
+        },
+        {
+          "word": "storyboard",
+          "start": 1.98,
+          "end": 2.48
+        },
+        {
+          "word": "says",
+          "start": 2.48,
+          "end": 2.76
+        },
+        {
+          "word": "what",
+          "start": 2.76,
+          "end": 2.96
+        },
+        {
+          "word": "appears",
+          "start": 2.96,
+          "end": 3.26
+        },
+        {
+          "word": "and",
+          "start": 3.26,
+          "end": 3.56
+        },
+        {
+          "word": "when.",
+          "start": 3.56,
+          "end": 3.86
+        },
+        {
+          "word": "Review",
+          "start": 4.26,
+          "end": 4.52
+        },
+        {
+          "word": "the",
+          "start": 4.52,
+          "end": 4.74
+        },
+        {
+          "word": "stills",
+          "start": 4.74,
+          "end": 5.14
+        },
+        {
+          "word": "before",
+          "start": 5.14,
+          "end": 5.38
+        },
+        {
+          "word": "building",
+          "start": 5.38,
+          "end": 5.78
+        },
+        {
+          "word": "the",
+          "start": 5.78,
+          "end": 5.96
+        },
+        {
+          "word": "movement.",
+          "start": 5.96,
+          "end": 6.3
+        },
+        {
+          "word": "Small",
+          "start": 6.74,
+          "end": 7.04
+        },
+        {
+          "word": "changes",
+          "start": 7.04,
+          "end": 7.48
+        },
+        {
+          "word": "are",
+          "start": 7.48,
+          "end": 7.72
+        },
+        {
+          "word": "easier",
+          "start": 7.72,
+          "end": 8.04
+        },
+        {
+          "word": "here.",
+          "start": 8.04,
+          "end": 8.32
+        }
+      ],
+      "timingSource": "whisper",
+      "transcription": {
+        "text": "Now map the words to pictures. A storyboard says what appears and when. Review the stills before building the movement. Small changes are easier here.",
+        "differsFromScript": false,
+        "differences": []
+      },
+      "cuePhrases": [
+        "map the words",
+        "Review the stills",
+        "Small changes"
+      ],
+      "cues": [
+        {
+          "phrase": "map the words",
+          "start": 0.2,
+          "end": 0.82,
+          "wordIndex": 1
+        },
+        {
+          "phrase": "Review the stills",
+          "start": 4.26,
+          "end": 5.14,
+          "wordIndex": 13
+        },
+        {
+          "phrase": "Small changes",
+          "start": 6.74,
+          "end": 7.48,
+          "wordIndex": 20
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "Make the stills move.",
+      "narration": "Artwork becomes a scene. Code controls the camera, the text, and the motion. The browser draws each moment, one frame at a time.",
+      "duration": 7.445,
+      "layout": "image",
+      "items": [],
+      "visualPrompt": "A tiny orange film projector projecting a warm cone of light across an ivory paper landscape, cinematic crafted editorial illustration.",
+      "asset": "assets/projector.png",
+      "audio": "audio/126033904ce19100bae66332587692e9d2c83aa0c3d51cf98a8ab9a78a71a07d.mp3",
+      "words": [
+        {
+          "word": "Artwork",
+          "start": 0,
+          "end": 0.3
+        },
+        {
+          "word": "becomes",
+          "start": 0.3,
+          "end": 0.6
+        },
+        {
+          "word": "a",
+          "start": 0.6,
+          "end": 0.82
+        },
+        {
+          "word": "scene.",
+          "start": 0.82,
+          "end": 1.06
+        },
+        {
+          "word": "Code",
+          "start": 1.56,
+          "end": 1.72
+        },
+        {
+          "word": "controls",
+          "start": 1.72,
+          "end": 2.18
+        },
+        {
+          "word": "the",
+          "start": 2.18,
+          "end": 2.38
+        },
+        {
+          "word": "camera,",
+          "start": 2.38,
+          "end": 2.7
+        },
+        {
+          "word": "the",
+          "start": 2.86,
+          "end": 2.94
+        },
+        {
+          "word": "text,",
+          "start": 2.94,
+          "end": 3.32
+        },
+        {
+          "word": "and",
+          "start": 3.58,
+          "end": 3.68
+        },
+        {
+          "word": "the",
+          "start": 3.68,
+          "end": 3.78
+        },
+        {
+          "word": "motion.",
+          "start": 3.78,
+          "end": 4.1
+        },
+        {
+          "word": "The",
+          "start": 4.52,
+          "end": 4.62
+        },
+        {
+          "word": "browser",
+          "start": 4.62,
+          "end": 4.94
+        },
+        {
+          "word": "draws",
+          "start": 4.94,
+          "end": 5.26
+        },
+        {
+          "word": "each",
+          "start": 5.26,
+          "end": 5.5
+        },
+        {
+          "word": "moment,",
+          "start": 5.5,
+          "end": 5.9
+        },
+        {
+          "word": "one",
+          "start": 6.26,
+          "end": 6.42
+        },
+        {
+          "word": "frame",
+          "start": 6.42,
+          "end": 6.66
+        },
+        {
+          "word": "at",
+          "start": 6.66,
+          "end": 6.84
+        },
+        {
+          "word": "a",
+          "start": 6.84,
+          "end": 6.92
+        },
+        {
+          "word": "time.",
+          "start": 6.92,
+          "end": 7.22
+        }
+      ],
+      "timingSource": "whisper",
+      "transcription": {
+        "text": "Artwork becomes a scene. Code controls the camera, the text, and the motion. The browser draws each moment, one frame at a time.",
+        "differsFromScript": false,
+        "differences": []
+      },
+      "cues": []
+    },
+    {
+      "id": "finish",
+      "title": "Review. Refine. Release.",
+      "narration": "Finally, combine the frames with the voice, music, and captions. Watch it all the way through. Refine the details. One folder now holds a finished film.",
+      "duration": 9.3,
+      "layout": "quote",
+      "items": [],
+      "visualPrompt": "A quiet end card with a confident editorial statement.",
+      "asset": null,
+      "audio": "audio/a742faaea202da6057dd691dd36b43f39ff76f208aefb390c7f661d5d9de7003.mp3",
+      "words": [
+        {
+          "word": "Finally,",
+          "start": 0,
+          "end": 0.44
+        },
+        {
+          "word": "combine",
+          "start": 0.72,
+          "end": 0.98
+        },
+        {
+          "word": "the",
+          "start": 0.98,
+          "end": 1.2
+        },
+        {
+          "word": "frames",
+          "start": 1.2,
+          "end": 1.44
+        },
+        {
+          "word": "with",
+          "start": 1.44,
+          "end": 1.74
+        },
+        {
+          "word": "the",
+          "start": 1.74,
+          "end": 1.84
+        },
+        {
+          "word": "voice,",
+          "start": 1.84,
+          "end": 2.1
+        },
+        {
+          "word": "music,",
+          "start": 2.68,
+          "end": 2.98
+        },
+        {
+          "word": "and",
+          "start": 3.26,
+          "end": 3.36
+        },
+        {
+          "word": "captions.",
+          "start": 3.36,
+          "end": 3.7
+        },
+        {
+          "word": "Watch",
+          "start": 4.36,
+          "end": 4.54
+        },
+        {
+          "word": "it",
+          "start": 4.54,
+          "end": 4.72
+        },
+        {
+          "word": "all",
+          "start": 4.72,
+          "end": 4.8
+        },
+        {
+          "word": "the",
+          "start": 4.8,
+          "end": 4.9
+        },
+        {
+          "word": "way",
+          "start": 4.9,
+          "end": 5.04
+        },
+        {
+          "word": "through.",
+          "start": 5.04,
+          "end": 5.36
+        },
+        {
+          "word": "Refine",
+          "start": 5.84,
+          "end": 6.18
+        },
+        {
+          "word": "the",
+          "start": 6.18,
+          "end": 6.32
+        },
+        {
+          "word": "details.",
+          "start": 6.32,
+          "end": 6.66
+        },
+        {
+          "word": "One",
+          "start": 7.22,
+          "end": 7.42
+        },
+        {
+          "word": "folder",
+          "start": 7.42,
+          "end": 7.76
+        },
+        {
+          "word": "now",
+          "start": 7.76,
+          "end": 8.02
+        },
+        {
+          "word": "holds",
+          "start": 8.02,
+          "end": 8.28
+        },
+        {
+          "word": "a",
+          "start": 8.28,
+          "end": 8.44
+        },
+        {
+          "word": "finished",
+          "start": 8.44,
+          "end": 8.72
+        },
+        {
+          "word": "film.",
+          "start": 8.72,
+          "end": 9.06
+        }
+      ],
+      "timingSource": "whisper",
+      "transcription": {
+        "text": "Finally, combine the frames with the voice, music, and captions. Watch it all the way through. We find the details. One folder now holds a finished film.",
+        "differsFromScript": true,
+        "differences": [
+          {
+            "type": "heardOnly",
+            "word": "we",
+            "transcriptIndex": 16
+          },
+          {
+            "type": "heardOnly",
+            "word": "find",
+            "transcriptIndex": 17
+          },
+          {
+            "type": "scriptOnly",
+            "word": "refine",
+            "scriptIndex": 16
+          }
+        ],
+        "reviewNote": "Merged recognized we find into scripted Refine for captions; original word interval and raw recognition retained."
+      }
+    }
+  ],
+  "reviews": {
+    "brief": null,
+    "script": null,
+    "storyboard": null,
+    "animation": null
+  },
+  "references": [],
+  "exports": [],
+  "contactSheets": []
+}

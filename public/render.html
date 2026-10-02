@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Frame Studio Render</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f5f0e6}#frame{width:100vw;height:100vh}#frame svg{display:block}</style></head>
+<body><div id="frame"></div><script type="module">
+import {mountScene,preloadProject} from './renderer.js';
+const params = new URLSearchParams(location.search);
+const id = params.get('project');
+const width = Math.max(1, Number(params.get('width')) || 1280);
+const height = Math.max(1, Number(params.get('height')) || 720);
+const captions = params.get('captions') !== 'false';
+const frame = document.getElementById('frame');
+window.renderReady = (async () => {
+  if (!id) throw new Error('Missing project parameter');
+  const response = await fetch(`/api/projects/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(`Project request failed: ${response.status}`);
+  const project = await response.json();
+  await preloadProject(project);
+  window.renderFrame = time => mountScene(frame, project, Number(time) || 0, {width,height,captions});
+  window.renderFrame(0);
+  return project;
+})();
+</script></body></html>
